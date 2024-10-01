@@ -1,0 +1,6 @@
+@Jeff.ExpenseTracker.API_HostAddress = http://localhost:5134
+
+GET {{Jeff.ExpenseTracker.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

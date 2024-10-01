@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35309.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jeff.ExpenseTracker.API", "Jeff.ExpenseTracker.API\Jeff.ExpenseTracker.API.csproj", "{D121D5AA-A2AE-467C-BC64-B102D949A47C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jeff.ExpenseTracker.DAL", "Jeff.ExpenseTracker.DAL\Jeff.ExpenseTracker.DAL.csproj", "{F79EE5BD-91FF-4C3C-9BC0-4C15249E179E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jeff.ExpenseTracker.Contracts", "Jeff.ExpenseTracker.Contracts\Jeff.ExpenseTracker.Contracts.csproj", "{6314AA2A-2353-4C69-9B85-587AC499CAFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jeff.ExpenseTracker.Infrastructure", "Jeff.ExpenseTracker.Infrastructure\Jeff.ExpenseTracker.Infrastructure.csproj", "{EF4174C4-5E0A-4C7C-9530-AA44078C0A8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jeff.ExpenseTracker.Core", "Jeff.ExpenseTracker.Core\Jeff.ExpenseTracker.Core.csproj", "{C3638CC6-7A63-4AB9-895C-488AF17201D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E00346A7-76C0-48BE-8C7C-4530FB5816B0}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D121D5AA-A2AE-467C-BC64-B102D949A47C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D121D5AA-A2AE-467C-BC64-B102D949A47C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D121D5AA-A2AE-467C-BC64-B102D949A47C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D121D5AA-A2AE-467C-BC64-B102D949A47C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F79EE5BD-91FF-4C3C-9BC0-4C15249E179E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F79EE5BD-91FF-4C3C-9BC0-4C15249E179E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F79EE5BD-91FF-4C3C-9BC0-4C15249E179E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F79EE5BD-91FF-4C3C-9BC0-4C15249E179E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6314AA2A-2353-4C69-9B85-587AC499CAFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6314AA2A-2353-4C69-9B85-587AC499CAFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6314AA2A-2353-4C69-9B85-587AC499CAFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6314AA2A-2353-4C69-9B85-587AC499CAFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF4174C4-5E0A-4C7C-9530-AA44078C0A8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF4174C4-5E0A-4C7C-9530-AA44078C0A8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF4174C4-5E0A-4C7C-9530-AA44078C0A8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF4174C4-5E0A-4C7C-9530-AA44078C0A8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3638CC6-7A63-4AB9-895C-488AF17201D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3638CC6-7A63-4AB9-895C-488AF17201D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3638CC6-7A63-4AB9-895C-488AF17201D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3638CC6-7A63-4AB9-895C-488AF17201D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9AFA8320-CE35-4053-AAC6-D7259E8235F7}
+	EndGlobalSection
+EndGlobal
